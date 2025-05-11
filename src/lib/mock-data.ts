@@ -1,0 +1,68 @@
+import type { SearchResult } from "./types"
+
+export const mockSearchResults: SearchResult[] = [
+  {
+    id: "1",
+    title: "Introduction to Next.js",
+    description: "Learn the basics of Next.js, the React framework for production.",
+    url: "https://nextjs.org/docs",
+    date: "2023-05-15",
+    popularity: 4.8,
+  },
+  {
+    id: "2",
+    title: "React Hooks Explained",
+    description: "A comprehensive guide to React Hooks and how to use them effectively in your applications.",
+    url: "https://reactjs.org/docs/hooks-intro.html",
+    date: "2023-04-20",
+    popularity: 4.5,
+  },
+  {
+    id: "3",
+    title: "Building a REST API with Node.js",
+    description: "Step-by-step tutorial on creating a RESTful API using Node.js and Express.",
+    url: "https://nodejs.org/en/learn",
+    date: "2023-06-10",
+    popularity: 4.2,
+  },
+  {
+    id: "4",
+    title: "CSS Grid Layout Tutorial",
+    description: "Master CSS Grid Layout with practical examples and exercises.",
+    url: "https://css-tricks.com/snippets/css/complete-guide-grid/",
+    date: "2023-03-05",
+    popularity: 4.6,
+  },
+  {
+    id: "5",
+    title: "JavaScript ES6 Features",
+    description: "Explore the modern features of JavaScript ES6 and how they improve your code.",
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    date: "2023-02-18",
+    popularity: 4.7,
+  },
+  {
+    id: "6",
+    title: "TypeScript for Beginners",
+    description: "Get started with TypeScript and learn how it enhances JavaScript development.",
+    url: "https://www.typescriptlang.org/docs/",
+    date: "2023-07-22",
+    popularity: 4.4,
+  },
+  {
+    id: "7",
+    title: "Responsive Web Design Principles",
+    description: "Learn the core principles of creating responsive websites that work on any device.",
+    url: "https://web.dev/responsive-web-design-basics/",
+    date: "2023-01-30",
+    popularity: 4.3,
+  },
+  {
+    id: "8",
+    title: "Git and GitHub for Version Control",
+    description: "Master version control with Git and GitHub to manage your code effectively.",
+    url: "https://github.com/features/",
+    date: "2023-08-05",
+    popularity: 4.9,
+  },
+]

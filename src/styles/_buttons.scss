@@ -1,0 +1,54 @@
+.btn {
+  border: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+    box-shadow: none;
+  }
+}
+
+.btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  opacity: 0.8;
+  color: currentColor;
+  transition: all 0.25s;
+  cursor: pointer;
+
+  &.small {
+    height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  &.medium {
+    height: 3.2rem;
+    width: 3.2rem;
+  }
+
+  &.big {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  &:hover {
+    color: currentColor;
+  }
+}
+
+.rounded-btn {
+  border-radius: 5px !important;
+}
+
+.flex-btn {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Libre+Caslon+Display&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+body {
+  font-size: inherit;
+  font-family: "Arimo", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: inherit;
+}
+
+h2 {
+  font-size: 3.2rem;
+  color: inherit;
+}
+
+h3 {
+  font-size: 2.4rem;
+  color: inherit;
+}
+
+h4 {
+  font-size: 1.8rem;
+  color: inherit;
+}
+
+h5 {
+  font-size: 1.6rem;
+  color: inherit;
+}
+
+h6 {
+  font-size: 1.4rem;
+  color: inherit;
+}
+
+p {
+  font-size: 1.6rem;
+  color: inherit;
+}
+
+li {
+  font-size: 1.6rem;
+  color: inherit;
+}
+
+.header-sub-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  // color: var(--text-primary);
+}

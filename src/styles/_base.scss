@@ -1,0 +1,105 @@
+/****** Dynamic Media Queries *******/
+/* 
+$breakpoint argument choices:
+- phone       0-600px
+- tab-port    601-900px
+- tab-land    901-1200px
+- desktop     1201-1800px
+- desktop-xl  1801px+
+
+1em = 16px, for 600 => 600/16 = 37.5em
+*/
+
+// @import "~normalize.css";
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  } @else if $breakpoint == tab-port {
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  } @else if $breakpoint == tab-land {
+    @media (max-width: 75em) {
+      @content;
+    }
+  } @else if $breakpoint == desktop {
+    @media (min-width: 75em) {
+      @content;
+    }
+  } @else if $breakpoint == desktop-xl {
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
+
+/******** Dynamic Media Queries End ********/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+// ***** Table Styles End ***** //
+
+html {
+  // font-size: 68.75% !important;
+
+  // @include respond(desktop-xl) {
+  //   font-size: 75% !important;
+  // }
+
+  // @include respond(tab-land) {
+  //   font-size: 62.5% !important;
+  // }
+
+  // @include respond(tab-port) {
+  //   font-size: 56.25% !important;
+  // }
+
+  // @include respond(phone) {
+  //   font-size: 50% !important;
+  // }
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container {
+  max-width: 140rem !important;
+  margin: 0 auto;
+}
+
+/* Style the scrollbar container */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the vertical scrollbar */
+  height: 8px; /* Height of the horizontal scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 5px;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #555; /* Color of the thumb */
+  border-radius: 9px; /* Rounded corners for the thumb */
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+  /* Color of the thumb when hovered */
+}
+
+// ****** Scrollbar Ends ****** //

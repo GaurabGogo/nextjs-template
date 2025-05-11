@@ -1,0 +1,74 @@
+:root,
+[data-theme="default"] {
+  --font-size-base: 62.5%;
+
+  /* Updated Primary Color Palette */
+  --primary-color: #0787ea;
+  --primary-color-hover: #da1e37;
+  --primary-color-active: #bd1f36;
+
+  /* Updated Secondary Color Palette */
+  --secondary-color: #ff9900;
+  --secondary-color-hover: #ffaa33;
+  --secondary-color-active: #cc7a00;
+
+  /* Other UI Feedback Colors */
+  --danger-color: #e63946;
+  --success-color: #2ca058;
+
+  /* Text Colors */
+  --text-primary: #1a1a1a;
+  --text-primary-hover: #ffffff;
+  --text-secondary: #9e9e9e;
+  --text-on-bg: #fefefe;
+  --text-link: #4a006b;
+
+  /* Background Colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #ececec;
+
+  /* Border Colors */
+  --border-primary: #bdbdbd;
+  --border-secondary: #999999;
+
+  /* Shadow Colors */
+  --shadow-primary: rgba(0, 0, 0, 0.08);
+  --shadow-secondary: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] {
+  --font-size-base: 62.5%;
+
+  /* Updated Primary Color Palette */
+  --primary-color: #0787ea;
+  --primary-color-hover: #da1e37;
+  --primary-color-active: #bd1f36;
+
+  /* Updated Secondary Color Palette */
+  --secondary-color: #ff9900;
+  --secondary-color-hover: #ffaa33;
+  --secondary-color-active: #cc7a00;
+
+  /* Other UI Feedback Colors */
+  --danger-color: #e63946;
+  --success-color: #2ca058;
+
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-primary-hover: #ffffff;
+  --text-secondary: #9e9e9e;
+  --text-on-bg: #fefefe;
+  --text-link: #4a006b;
+
+  /* Background Colors */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2c2c2c;
+
+  /* Border Colors */
+  --border-primary: #bdbdbd;
+  --border-secondary: #999999;
+
+  /* Shadow Colors */
+  --shadow-primary: rgba(0, 0, 0, 0.08);
+  --shadow-secondary: rgba(0, 0, 0, 0.15);
+}
