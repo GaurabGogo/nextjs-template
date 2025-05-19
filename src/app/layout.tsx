@@ -18,6 +18,7 @@ import {
   MantineProvider,
   mantineHtmlProps,
 } from "@mantine/core";
+import WrapperLayout from "./WrapperLayout";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -48,7 +49,9 @@ export default function RootLayout({
       </head>
       <body className={`antialiased ${inter.className} relative`}>
         <MantineProvider>
-          <Providers>{children}</Providers>
+          <Providers>
+            <WrapperLayout>{children}</WrapperLayout>
+          </Providers>
         </MantineProvider>
       </body>
     </html>
